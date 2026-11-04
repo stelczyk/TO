@@ -15,7 +15,7 @@ public class Main {
             System.out.printf("%s: kartezjanskie %s, biegunowe r=%.4f, kat=%.4f rad%n",
                 names[i], Arrays.toString(v[i].getComponents()), p.abs(), p.getAngle());
         }
-
+        //xd
         for (int i = 0; i < v.length; i++)
             for (int j = 0; j < v.length; j++)
                 System.out.printf("%s . %s = %.2f    %s x %s = %s%n", names[i], names[j], v[i].cdot(v[j]),
