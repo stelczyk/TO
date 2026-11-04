@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         IVector[] v = {
-            new Polar2DInheritance(3, 4),
+            new Polar2DAdapter(new Vector2D(3, 4)),
             new Vector3DDecorator(new Vector2D(1, 2), 3),
             new Vector3DInheritance(2, -1, 4)
         };

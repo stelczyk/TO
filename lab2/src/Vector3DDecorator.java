@@ -1,4 +1,4 @@
-public class Vector3DDecorator implements IVector {
+ public class Vector3DDecorator implements IVector {
     private final IVector srcVector;
     private final double z;
 
